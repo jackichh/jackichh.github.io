@@ -27,8 +27,12 @@ html, body {
     background-color: #666;
 }
 
-.fullscreen_two{
+.fullscreen_two {
     background-color: beige;
+}
+
+.fullscreen_three {
+    background-color: #2AABEE;
 }
 
 .fullscreen__title_two {
@@ -58,6 +62,16 @@ html, body {
     justify-content: center;
 }
 
+.fullscreen__body_three {
+    flex: 1 1 auto;
+    max-width: 1000x;
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
 .fullscreen__title {
     font-size: 50px;
     margin: 0px 0px 20px 0px;
@@ -75,6 +89,18 @@ html, body {
     margin: 0px 0px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
+}
+
+.fullscreen__gamelink {
+    display: inline-block;
+    line-height: 64px;
+    color: #fff;
+    text-decoration: none;
+    background-color: brown;
+    align-self: center;
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 14px;
 }
 
 .fullscreen__tglink {
